@@ -8,6 +8,12 @@ function sub(x, y){
   return x - y;
 }
 
-function hi(x, y){
-  console.log('Say Hi');
+function mul(x, y){
+  if(isNaN(x)) return console.log('Input must be number.');
+  return x * y;
+}
+
+function div(x, y){
+  if(isNaN(x)) return console.log('Input must be number.');
+  return x / y;
 }
